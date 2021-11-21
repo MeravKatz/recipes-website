@@ -171,3 +171,41 @@ nav li.active a {
 .email-link:hover {
   color: var(--branding-color);
 }
+
+.recipe-image {
+  max-width: 760px;
+  margin: 0 auto;
+  display: block;
+}
+
+.recipe {
+  margin-left: 267px;
+  margin-right: 413px;
+}
+
+.recipe-table {
+  border-bottom: 1px dotted #67d5d2;
+  margin-bottom: 38px;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+}
+
+.ingredients div {
+  border-bottom: 1px dotted #67d5d2;
+  max-width: 360px;
+  padding: 10px 0;
+}
+
+.method {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-step {
+  color: #f65282;
+  font-weight: 800;
+}
