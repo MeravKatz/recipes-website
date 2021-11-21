@@ -23,6 +23,11 @@ h2 {
   text-align: left;
 }
 
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
 .hero {
   max-width: 100%;
   height: auto;
@@ -73,6 +78,7 @@ h2 {
   height: 100px;
   margin-bottom: 0;
   padding: 40px 140px;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
@@ -121,4 +127,27 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.profile-picture {
+  max-width: 460px;
+}
+
+.profile-description {
+  max-width: 460px;
+}
+
+.profile-description h1 {
+  text-align: left;
+}
+
+.social-links a {
+  margin: 4px 10px 4px 25px;
+  color: var(--primary-color);
 }
