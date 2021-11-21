@@ -1,10 +1,12 @@
 :root {
   --primary-color: #272142;
   --secondary-color: #ffffff;
+  --branding-color: #662eed;
+  --font-family: "Nunito", sans-serif;
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--font-family);
   max-width: 1440px;
 }
 
@@ -22,6 +24,19 @@ h2 {
 }
 
 .hero {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding-bottom: 46px;
+}
+
+.hero h1 {
+  color: var(--primary-color);
+  padding-top: 47px;
+  line-height: 98px;
+}
+
+.hero-home {
   background-image: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.5) 0%,
@@ -30,17 +45,17 @@ h2 {
     url(media/overlay.png);
   max-width: 100%;
   height: auto;
-  margin-top: 135px;
+  margin-top: 20px;
   padding-bottom: 46px;
 }
 
-.hero h1 {
+.hero-home h1 {
   color: var(--secondary-color);
   padding-top: 47px;
   line-height: 98px;
 }
 
-.hero h2 {
+.hero-home h2 {
   color: var(--secondary-color);
   line-height: 35px;
   text-align: center;
@@ -70,4 +85,40 @@ h2 {
   .footer {
     margin-bottom: 0;
   }
+}
+
+.nav-img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+
+nav {
+  padding: 20px 0;
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
