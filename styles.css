@@ -66,6 +66,10 @@ p {
   text-align: center;
 }
 
+.preview-images a {
+  text-decoration: none;
+}
+
 .preview {
   width: 560px;
   height: 350px;
