@@ -151,3 +151,23 @@ nav li.active a {
   margin: 4px 10px 4px 25px;
   color: var(--primary-color);
 }
+
+.contact-method {
+  margin-bottom: 50px;
+}
+
+.contact-method-title {
+  text-transform: uppercase;
+  color: var(--branding-color);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.email-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.email-link:hover {
+  color: var(--branding-color);
+}
