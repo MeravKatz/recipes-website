@@ -26,19 +26,27 @@
       src="https://kit.fontawesome.com/b91273bdcd.js"
       crossorigin="anonymous"
     ></script>
-    <title>Mike's Recipes</title>
+    <title>Mike's Recipes | A cooking blog</title>
+    <meta
+      name="description"
+      content="Mike's Recipes is a cooking blog with gourmet recipes you can make at home."
+    />
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="media/Mike.jpg" class="nav-img" alt="" />
+        <a href="/" title="Home Page">
+          <img src="media/Mike.jpg" class="nav-img" alt="Mike Hemi" />
         </a>
         <ul>
-          <li class="active"><a href="/"> Home</a></li>
-          <li><a href="/about.html">About Me</a></li>
-          <li><a href="/collection.html">Recipe Collection</a></li>
-          <li><a href="/contact.html">Contact Me</a></li>
+          <li class="active"><a href="/" title="Home Page"> Home</a></li>
+          <li><a href="/about.html" title="About Page">About Me</a></li>
+          <li>
+            <a href="/collection.html" title="Recipe Collection"
+              >Recipe Collection</a
+            >
+          </li>
+          <li><a href="/contact.html" title="Contact Page">Contact Me</a></li>
         </ul>
       </nav>
     </div>
@@ -52,27 +60,39 @@
     <div class="container preview-images mt-5">
       <div class="row">
         <div class="col-sm-6 text-center">
-          <a href="collection.html#steak">
-            <img src="media/steak.jpg" class="preview img-fluid" />
+          <a href="collection.html#steak" title="Steak Recipe">
+            <img src="media/steak.jpg" class="preview img-fluid" alt="steak" />
             <h2>Steak with Potato & Mushroom</h2>
           </a>
         </div>
         <div class="col-sm-6 text-center">
-          <a href="collection.html#macaroni">
-            <img src="media/macaroni.jpg" class="preview img-fluid" />
+          <a href="collection.html#macaroni" title="Mac and Cheese Recipe">
+            <img
+              src="media/macaroni.jpg"
+              class="preview img-fluid"
+              alt="mac and cheese"
+            />
             <h2>Mike's Mac & Cheese</h2>
           </a>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-6 text-center">
-          <a href="collection.html#pave">
-            <img src="media/pave.jpg" class="preview img-fluid" />
+          <a href="collection.html#pave" title="Sweet Potato Pave Recipe">
+            <img
+              src="media/pave.jpg"
+              class="preview img-fluid"
+              alt="sweet potato pave"
+            />
             <h2>Tri-Coloured Sweet Potato Pavé</h2>
           </a>
         </div>
         <div class="col-sm-6 text-center">
-          <img src="media/babka.jpg" class="preview img-fluid" />
+          <img
+            src="media/babka.jpg"
+            class="preview img-fluid"
+            alt="babka french toast"
+          />
           <h2>Babka French Toast</h2>
         </div>
       </div>
