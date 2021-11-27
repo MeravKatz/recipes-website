@@ -226,6 +226,7 @@ nav li.active a {
   }
   .footer {
     margin-bottom: 0;
+    height: 130px;
   }
   .profile-description {
     margin-left: 0;
