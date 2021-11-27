@@ -140,6 +140,11 @@ nav li.active a {
   text-align: left;
 }
 
+.follow,
+.social-links {
+  display: flex;
+}
+
 .social-links a {
   margin: 4px 10px 4px 25px;
   color: var(--primary-color);
@@ -225,6 +230,10 @@ nav li.active a {
   }
   .profile h1 {
     text-align: center;
+  }
+  .follow,
+  .social-links {
+    display: block;
   }
   .recipe {
     text-align: center;
