@@ -50,7 +50,7 @@ p {
     url(media/overlay.png);
   max-width: 100%;
   height: auto;
-  margin-top: 20px;
+  margin-top: 90px;
   padding-bottom: 46px;
 }
 
@@ -96,6 +96,7 @@ nav {
   padding: 20px 0;
   font-family: var(--font-family);
   font-weight: bold;
+  background-color: #ffffff;
 }
 
 nav ul {
@@ -220,6 +221,9 @@ nav li.active a {
   }
   h2 {
     text-align: center;
+  }
+  .hero-home {
+    margin-top: 115px;
   }
   .preview {
     height: auto;
