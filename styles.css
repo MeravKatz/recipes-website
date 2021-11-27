@@ -93,7 +93,7 @@ p {
 }
 
 nav {
-  padding: 20px 0;
+  padding: 20px 140px;
   font-family: var(--font-family);
   font-weight: bold;
   background-color: #ffffff;
@@ -221,6 +221,9 @@ nav li.active a {
   }
   h2 {
     text-align: center;
+  }
+  nav {
+    padding: 20px;
   }
   .hero-home {
     margin-top: 115px;
