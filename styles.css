@@ -221,6 +221,9 @@ nav li.active a {
   h2 {
     text-align: center;
   }
+  .preview {
+    height: auto;
+  }
   .footer {
     margin-bottom: 0;
   }
