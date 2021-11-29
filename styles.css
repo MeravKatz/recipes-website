@@ -132,9 +132,10 @@ nav li.active a {
   max-width: 460px;
 }
 
-.profile-description {
+.profile-description,
+.contact-description {
   max-width: 460px;
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 .profile-description h1 {
@@ -183,7 +184,6 @@ nav li.active a {
 }
 
 .recipe-image {
-  max-width: 760px;
   margin: 0 auto;
   display: block;
 }
@@ -237,7 +237,11 @@ nav li.active a {
     padding: 40px 100px;
   }
   .profile-description {
-    margin-left: 0;
+    padding: 0 40px;
+    text-align: center;
+  }
+  .contact-description {
+    padding-left: 0;
     text-align: center;
   }
   .profile h1 {
@@ -249,6 +253,9 @@ nav li.active a {
   }
   .recipe {
     text-align: center;
+  }
+  .recipe h2 {
+    padding: 0 20px;
   }
   .ingredients {
     padding-right: 0;
